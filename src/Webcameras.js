@@ -99,7 +99,7 @@ const Webcameras = () => {
           <iframe
             className="w-full h-full"
             title="The Sunset bar and restaurant Bang Rak beach | Koh Samui"
-            src="https://www.youtube.com/embed/nGxwG0SG4L4?si=MP-07wG4HvVLFr8x"
+            src="https://www.youtube.com/embed/nGxwG0SG4L4?si=MP-07wG4HvVLFr8x&autoplay=1&mute=1"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
