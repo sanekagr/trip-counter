@@ -1,0 +1,44 @@
+/* main CSS file */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
+/* Add material icons */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  height:100%;
+}
+
+html{
+  background: #f5f5f5;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+@media screen and (max-width: 768px){
+  html{
+    font-size: 12px;
+  }
+  
+}
+
+.counter{
+  font-size: 7rem;
+}
+.top_heading{
+  min-height: 70px;
+  background: linear-gradient(#ED1C24, #ED1C24 20%, #FFFFFF 20%, #FFFFFF 25%, #002868 25%, #002868 75%, #FFFFFF 75%, #FFFFFF 80%, #ED1C24 80%, #ED1C24);
+}
+
+/* .image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(50vh - 80px);
+} */
+/* .image-gallery{} */
